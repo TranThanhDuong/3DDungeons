@@ -1,0 +1,5 @@
+id,name,prefab,hp,damage,rof,range_Attack,range_Aim
+1,Ninja,Ninja_Black,10,5,3,5,10
+2,Sensei,Ninja_Sensei_Boss,10,5,3,5,10
+3,Skeleton,Skeleton,10,5,3,5,10
+4,Malphite,Skeleton_BOSS,10,5,3,5,10

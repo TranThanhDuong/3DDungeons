@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ec8beb9eb574ca09a1b7a0320b309e, type: 3}
+  m_Name: ConfigEnemy
+  m_EditorClassIdentifier: 
+  records:
+  - id: 1
+    name: Ninja
+    prefab: Ninja_Black
+    hp: 10
+    damage: 5
+    rof: 3
+    range_Attack: 5
+    range_Aim: 10
+  - id: 2
+    name: Sensei
+    prefab: Ninja_Sensei_Boss
+    hp: 10
+    damage: 5
+    rof: 3
+    range_Attack: 5
+    range_Aim: 10
+  - id: 3
+    name: Skeleton
+    prefab: Skeleton
+    hp: 10
+    damage: 5
+    rof: 3
+    range_Attack: 5
+    range_Aim: 10
+  - id: 4
+    name: Malphite
+    prefab: Skeleton_BOSS
+    hp: 10
+    damage: 5
+    rof: 3
+    range_Attack: 5
+    range_Aim: 10

@@ -1,0 +1,35 @@
+boss: 
+spawn(particle)
+move
+idle
+stun(from player)
+skill
+- Boss gameplay: 
+spawn => idle {get player pos and move to player} and check:
+if 
+{player in range attack: check if isSkill is true switch to skillAction, else switch to normal attack.
+}
+=>idle...
+- isSKill bool variable: if(timeSkill>0) =>isSkill =false, else isSkill = true.
+- timeSKill set to 5, timeSKill -= time.deltatime, if(timeSkill=0)=>timeSkill=5.
+skill describe:
++ normal attack
+
++jump and strong hit ground at player position
+{
+ 	
+}
++strong attack 
+{
+	fixed direction to player
+}
+
++teleport far away player (**spawn minions surround player:option)
+{
+	tele direction = boss pos -  player pos * range tele.
+	**spawn minions at player pos.
+}
++spin
+{
+	have range
+}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0f95b4ad721416e9935876a47c7035, type: 3}
+  m_Name: ConfigEnemyAction
+  m_EditorClassIdentifier: 
+  records:
+  - id: 1
+    idWave: 1
+    listPoint: 1;3;5
+  - id: 2
+    idWave: 1
+    listPoint: 2;4;6
+  - id: 3
+    idWave: 2
+    listPoint: 7;8;9
+  - id: 4
+    idWave: 2
+    listPoint: 10;11
+  - id: 5
+    idWave: 3
+    listPoint: 12;18;14
+  - id: 6
+    idWave: 3
+    listPoint: 16;13
+  - id: 7
+    idWave: 3
+    listPoint: 12;15;13
+  - id: 8
+    idWave: 3
+    listPoint: 16;14
+  - id: 9
+    idWave: 4
+    listPoint: 17;18
